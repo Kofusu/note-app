@@ -1,0 +1,17 @@
+.noteSection {
+  padding: .5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.empty {
+  color: #ffff00;
+  border: 1px solid #ffff00;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}

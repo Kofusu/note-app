@@ -1,0 +1,31 @@
+.formControl {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.label {
+  display: block;
+  text-indent: 0.5rem;
+}
+
+.textarea,
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.textarea:focus,
+.input:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px 2px rgb(180, 0, 0);
+}
+
+.textarea {
+  min-height: 120px;
+}
+
+.red {
+  color: rgb(255, 0, 0);
+}

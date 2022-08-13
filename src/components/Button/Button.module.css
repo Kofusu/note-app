@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 10px 2px rgb(180, 0, 0);
+}
+
+.blockButton {
+  background: rgb(180, 0, 0);
+  margin: 1rem 0;
+  display: block;
+}
+
+.successButton {
+  background-color: #008000;
+  margin: .25rem;
+}
+
+.errorButton {
+  background-color: #ff0000;
+  margin: .25rem;
+}

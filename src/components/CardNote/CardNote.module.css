@@ -1,0 +1,24 @@
+.card {
+  border: 1px solid rgb(180, 0, 0);
+  border-radius: 10px;
+  padding: .5rem;
+  margin: .5rem;
+  width: 320px;
+  height: auto;
+}
+
+.title {
+  letter-spacing: 4px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.time {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: .75rem 0;
+}
+
+.body {
+  word-wrap: break-word;
+}
